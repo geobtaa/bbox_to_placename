@@ -16,7 +16,7 @@ This repository is for populating spatial coverage for records only with a bound
 
 #### Why create county bounding box GeoJSON?
 
-A Bounding box is typically described as an array of two coordinate pairs: **SW** (the minimum longitude and latitude) and **NE** (the minimum longitude and latitude). Therefore, the rectangle area it represents always exceeds the real one and overlaps each other. It may cause problem especially for features sharing the same border like counties. 
+A Bounding box is typically described as an array of two coordinate pairs: **SW** (the minimum longitude and latitude) and **NE** (the maximum longitude and latitude). Therefore, the rectangle area it represents always exceeds the real one and overlaps each other. It may cause problems especially for features sharing the same border like counties. 
 
 If we join the bounding box of records with accurate county boundaries, there's a great chance of returning place names which actually have no spatial relationship. In order to improve the accuracy, we need to use regular rectangle area for both join features and target features. 
 
