@@ -1,0 +1,534 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Indiana Geological Survey
+      Originator: Karen K. Like (digital compiler)
+      Publication_Date: 20020621
+      Title:
+        LANDSURVEY_COUNTY_POLY_IN: County Boundaries of Indiana
+        (Indiana Geological Survey, 1:24,000, Polygon Shapefile)
+      Edition: 1.0
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Bloomington, Indiana
+        Publisher: Indiana Geological Survey
+      Other_Citation_Details: None
+      Online_Linkage: http://igs.indiana.edu/arcims/statewide/download.html
+  Description:
+    Abstract:
+      LANDSURVEY_COUNTY_POLY_IN is a 1:24,000-scale polygon
+      shapefile with a projection of Universal Transverse Mercator (UTM)
+      North American Datum (NAD) 1983 zone 16.
+    Purpose:
+      This shapefile was created as a framework layer defining the
+      county boundaries of Indiana in polygon format.  The information is
+      intended for geographic display or analysis at a scale of 1:24,000 or
+      smaller.
+    Supplemental_Information:
+      This shapefile was derived from a predecessor coverage named "IN_LANDSURVEY."  IN_LANDSURVEY is a
+      digital representation of land survey features as represented on the USGS 1:24,000 digital raster
+      graphic (DRG) series. ESRI ArcEdit 8.1 and ESRI ArcView 3.2 were used to extract the following shapefiles
+      from IN_LANDSURVEY:
+      LANDSURVEY_COUNTY_LINE_IN, LANDSURVEY_COUNTY_POLY_IN, LANDSURVEY_SECTIONS_LINE_IN, LANDSURVEY_SECTIONS_POLY_IN,
+      LANDSURVEY_STATE_LINE_IN, LANDSURVEY_STATE_POLY_IN, LANDSURVEY_TOWNSHIPS_LINE_IN, and LANDSURVEY_TOWNSHIPS_POLY_IN.
+
+      NOTE -- This shapefile is identical to a version named "INDIANA_COUNTYBDY_24K_IGS_P".
+      This metadata file is a copy of the metadata for "INDIANA_COUNTYBDY_24K_IGS_P" that has had minor edits.
+      The shapefile and metadata were renamed to conform to a file-naming convention for a project funded
+      outside the IGS.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1952
+        Ending_Date: 1998
+    Currentness_Reference: Publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -88.1607
+      East_Bounding_Coordinate: -84.6882
+      North_Bounding_Coordinate: 41.7753
+      South_Bounding_Coordinate: 37.7554
+  Keywords:
+    Theme:    
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus 
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Keyword Thesaurus
+      Theme_Keyword: Indiana Geological Survey
+      Theme_Keyword: IGS
+      Theme_Keyword: county boundaries
+      Theme_Keyword: United States Geological Survey
+      Theme_Keyword: USGS
+      Theme_Keyword: Digital Raster Graphic
+      Theme_Keyword: DRG
+      Theme_Keyword: Public Land Survey System
+      Theme_Keyword: PLSS
+      Theme_Keyword: basemap
+      Theme_Keyword: cartography
+    Place:
+      Place_Keyword_Thesaurus: IGS Metadata Keyword Thesaurus
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Bartholomew County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Crawford County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: Dekalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Floyd County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Jennings County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Martin County
+      Place_Keyword: Miami County
+      Place_Keyword: Monroe County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Orange County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Ripley County
+      Place_Keyword: Rush County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Scott County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    This file is available to anyone, but access may be
+    contingent on written request, specific terms relevant to the agency or
+    person making the request, and/or current freedom of information statutes
+    in the state of Indiana.
+  Use_Constraints:
+    DATA DISCLAIMER:
+    This data set was compiled by Indiana University, Indiana Geological
+    Survey, using data believed to be accurate; however, a degree of error is
+    inherent in all data. This product is distributed "AS-IS" without
+    warranties of any kind, either expressed or implied, including but not
+    limited to warranties of suitability to a particular purpose or use. No
+    attempt has been made in either the design or production of these data to
+    define the limits or jurisdiction of any federal, state, or local
+    government. These data are intended for use only at the published scale
+    or smaller and are for reference purposes only. They are not to be
+    construed as a legal document or survey instrument. A detailed on-the-
+    ground survey and historical analysis of a single site may differ from
+    these data.
+    CREDIT:
+    It is requested that the Indiana Geological Survey be cited in any
+    products generated from this data. The following source citation should be
+    included: [LANDSURVEY_COUNTY_POLY_IN: County Boundaries of Indiana
+    (Indiana Geological Survey, 1:24,000, Polygon Shapefile)].
+    WARRANTY:
+    Indiana University, Indiana Geological Survey warrants that the media on
+    which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a
+    defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405
+    2208, and it will be replaced free of charge.
+    LIMITATION OF WARRANTIES AND LIABILITY:
+    Except for the expressed warranty above, the product is provided "AS IS",
+    without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana
+    University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever,
+    including, but not limited to, loss of revenue or profit, lost or damaged
+    data or other commercial or economic loss. Indiana University, Indiana
+    Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed
+    the amount paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 7636
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Native_Data_Set_Environment: ESRI ArcView version 3.2 shapefile format, Microsoft Windows 2000, approximately 895 Kb
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      All county names contained in the fields
+      named "NAME_U" and "NAME_L" were checked against the USGS
+      7.5-minute quadrangles. The prefix code contained in the field
+      named "NCAPC" was checked against the AccessIndiana Indiana Bureau
+      of Motor Vehicles license plates and titles county prefixes listed on license plates.
+  Logical_Consistency_Report:
+    A check was made for dangling nodes and none
+    were detected.
+  Completeness_Report:
+    A check was made to verify that the county boundaries
+    are continuous and are identical to the county boundaries contained in IN_LANDSURVEY.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Accuracy is no better than that
+        of the source material used to compile IN_LANDSURVEY.  The vector lines contained
+        in IN_LANDSURVEY were corrected to DRG raster lines at an on-screen scale of 1:5,000 or
+        better.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+        Vertical accuracy was not a factor
+        in the digital production of the data set.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Indiana Geological Survey
+          Publication_Date: 20020510
+          Title:
+            IN_LANDSURVEY: Land Survey Information for Indiana (Indiana
+            Geological Survey, 1:24,000, Polygon Coverage)
+          Edition: 1.0 (20020510)
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Bloomington, Indiana
+            Publisher: Indiana Geological Survey
+          Other_Citation_Details: None
+          Online_Linkage: None
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Network drive
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1952
+            Ending_Date: 1998
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: IN_LANDSURVEY
+      Source_Contribution: All line work.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Indiana Bureau of Motor Vehicles
+          Publication_Date: 20020614
+          Title: County Prefixes Listed on License Plates
+          Edition: 20020614
+          Geospatial_Data_Presentation_Form: Tabular digital data
+          Publication_Information:
+            Publication_Place: Indianapolis, Indiana
+            Publisher: State of Indiana
+          Other_Citation_Details: None
+          Online_Linkage:
+            Indiana Bureau of Motor Vehicles
+            http://www.in.gov/bmv/platesandtitles/coprefix.html
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20020614
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Numeric county alphabetical prefix code.
+    Process_Step:
+      Process_Description:
+        IN_LANDSURVEY was opened in ESRI ArcEdit
+        and queried for layer_1 = "CO-BDY" or layer_1 = "CO-BDY-CLOSE" or
+        layer_2 = "CO-BDY." A resulting coverage was constructed and the fields
+        Name_U, Name_L, and NCAPC were added.
+
+        The Name_U field was populated with the county name in all capital
+        letters as spelled on the USGS 7.5-minute quadrangles.  The Name_L
+        field was populated with the county names in mixed upper and lower
+        case letters as defined by the IGS standard.  The NCAPC field was
+        populated with the numeric county alphabetical prefix codes defined
+        on license plates as listed on the Indiana Bureau of Motors Vehicles
+        web page. The resulting coverage was then opened in ESRI ArcView and saved
+        as a shapefile named "INDIANA_COUNTYBDY_24K_IGS_P."
+      Source_Used_Citation_Abbreviation: IN_LANDSURVEY
+      Process_Date: 20020614
+      Source_Produced_Citation_Abbreviation: INDIANA_COUNTYBDY_24K_IGS_P.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Karen K. Like
+          Contact_Position: Cartographic Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 2208
+            Country: USA
+          Contact_Voice_Telephone: 812 855 5893
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: klike@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+    Process_Step:
+      Process_Description:
+        The shapefile named "INDIANA_COUNTYBDY_24K_IGS_P" was renamed "LANDSURVEY_COUNTY_POLY_IN"
+        in accordance with file-naming conventions associated with a project funded outside the IGS.
+        Minor edits were also performed on the metadata for LANDSURVEY_COUNTY_POLY_IN.
+      Source_Used_Citation_Abbreviation: INDIANA_COUNTYBDY_24K_IGS_P.SHP
+      Process_Date: 20020710
+      Source_Produced_Citation_Abbreviation: LANDSURVEY_COUNTY_POLY_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 - 1700 Eastern Standard Time
+          Contact_Instructions: Monday - Friday, except holidays
+    Process_Step:
+      Process_Description:
+        This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+        MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+        States Geological Survey).  The errors generated by MP were all
+        addressed and corrected, except that no values were assigned to
+        "Abscissa_Resolution" and "Ordinate_Resolution."
+      Process_Date: 20020710
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 - 1700 Eastern Standard Time
+          Contact_Instructions: Monday - Friday, except holidays
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Indiana
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 92
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: landsurvey_county_poly_in.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: Name_u
+      Attribute_Definition: County names in upper case letters
+      Attribute_Definition_Source: USGS 7.5-minute quadrangles
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Name_l
+      Attribute_Definition: County names in upper and lower case letters
+      Attribute_Definition_Source: IGS standard
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Ncapc
+      Attribute_Definition: Numeric county alphabetic prefix code
+      Attribute_Definition_Source: Indiana Bureau of Motor Vehicles
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 92
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 7636
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    CREDIT:
+    It is requested that the Indiana Geological Survey be cited in any
+    products generated from this data. The following source citation should be
+    included: LANDSURVEY_COUNTY_POLY_IN: County Boundaries of Indiana
+    (Indiana Geological Survey, 1:24,000, Polygon Shapefile)].
+    WARRANTY:
+    Indiana University, Indiana Geological Survey warrants that the media on
+    which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a
+    defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405
+    2208, and it will be replaced free of charge.
+    LIMITATION OF WARRANTIES AND LIABILITY:
+    Except for the expressed warranty above, the product is provided "AS IS",
+    without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana
+    University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever,
+    including, but not limited to, loss of revenue or profit, lost or damaged
+    data or other commercial or economic loss. Indiana University, Indiana
+    Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed
+    the amount paid by you for the product.
+Metadata_Reference_Information:
+  Metadata_Date: 20020617
+  Metadata_Review_Date: 20020710
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Karen K. Like
+      Contact_Position: Cartographic Specialist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 5893
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: klike@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is intended to accompany the
+    data set identified and received from the IGS.  It is not to be altered
+    or summarized.  IGS does not support secondary distribution.  If this
+    data set was received from anyone besides the IGS, this metadata file and
+    the data set it describes may lack integrity.
