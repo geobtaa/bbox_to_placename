@@ -24,6 +24,6 @@ If we join the bounding box of records with accurate county boundaries, there's 
 
 <a href='https://geopandas.org/reference/geopandas.sjoin.html'>`geopandas.sjoin`</a> provides three match options: **intersects**, **contains** and **within**. The flow chart below demonstrates the decision-making process:
 
-<img src="https://user-images.githubusercontent.com/66186715/106498107-884adb80-6484-11eb-9f7c-ebbe4e4ee0e4.png" width="400" />
+<img src="https://user-images.githubusercontent.com/66186715/106975709-9f0b5f80-671c-11eb-8d7b-f45e1f27e22d.png" width="1200" />
 
 ​		
