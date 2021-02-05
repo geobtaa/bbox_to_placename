@@ -1,0 +1,250 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: US Census
+      Originator: Illinois State Geological Survey
+      Publication_Date: 20060425
+      Title: Municipal Boundaries in Illinois: Incorporated Places - 2000
+      Edition: 20060425
+      Geospatial_Data_Presentation_Form: vector digital data
+      Series_Information:
+        Series_Name: ISGS GIS Database
+        Issue_Identification: GISDB.IL_ADMIN_Municipality_2000_Py
+      Publication_Information:
+        Publication_Place: Champaign, Illinois
+        Publisher: lllinois State Geological Survey
+      Online_Linkage: http://www.isgs.illinois.edu/
+      Online_Linkage: http://illinois.edu
+  Description:
+    Abstract:
+      This polygon feature class shows incorporated places and census designated places in Illinois as of the 2000 US census.  The data are identical to that provided by the US Census except that field names have been changed or fields deleted to conform with data already in use at the ISGS.
+
+      The attribute data include FIPS place ID, name, and type of municipality.  Boundaries are generalized from the original TIGER data.
+
+      Incorporated places recognized in decennial US census data products are those reported to the U.S. Census Bureau as legally in existence on January 1, 2000, under the laws of their respective states, as cities, boroughs, towns, and villages.
+
+      Census designated places (CDPs) are delineated for each decennial census as the statistical counterparts of incorporated places. CDPs are delineated to provide data for settled concentrations of population that are identifiable by name but are not legally incorporated under the laws of the state in which they are located.
+
+      These are generalized cartographic boundaries originally produced to support the spatial geographic infrastructure for certain mapping functions within the Census Bureau's American Fact Finder and in support of the LandView Geographic Data Viewer. The data are a generalized extraction from the Census Bureau's TIGER database.  The suggested scale for use of these data is 1:5,000,000.  The data were obtained from the US Census website.
+    Purpose:
+      These data are appropriate for use in local and regional demographic analysis. Attributes include the name, FIPS code and type of municipality. A municipality may be composed of more than one polygon. Boundaries are subject to change and should not be considered definitive.
+
+      These data are appropriate for use in regional thematic analysis.  The data are not appropriate as a geodetic, legal or engineering base.  The data set was not and is not intended as a substitute for surveyed locations, such as can be determined by a registered Public Land Surveyor.  Although useful in a GIS as a thematic, reference, or base layer for maps, the data set has no legal basis in the definition of boundaries or property lines.
+    Supplemental_Information: This edition of the data was added to ISGS holdings on 20060425.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2000
+    Currentness_Reference: 2000 census
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -91.466901
+      East_Bounding_Coordinate: -87.522576
+      North_Bounding_Coordinate: 42.508284
+      South_Bounding_Coordinate: 36.970298
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: municipal
+      Theme_Keyword: municipality
+      Theme_Keyword: city
+      Theme_Keyword: town
+      Theme_Keyword: boundary
+      Theme_Keyword: incorporated
+      Theme_Keyword: place
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Illinois
+  Access_Constraints:
+    ISGS information must be obtained directly from the ISGS or from an authorized distributor.  Be aware that ISGS information obtained from an unauthorized third party may have been altered subsequent to original distribution, or may no longer be current.
+
+    Any access to these data, Web sites, computer systems, electronic services, and electronic networks is governed by University and campus policies, in particular, but not limited to, the Policy on Appropriate Use of Computers and Network Systems at the University of Illinois at Urbana-Champaign, the ISGS Terms of Use document available at the ISGS Web site, and the University of Illinois Web Privacy Notice.
+
+    Links to these are provided in the Cross References section.
+  Use_Constraints:
+    ISGS information is the property of and copyrighted by the Board of Trustees of the University of Illinois with all rights reserved.  University copyright policy is stated in the General Rules Concerning University Organization and Procedure, Article III, Section 4.  A link is provided in the Cross References section.
+
+    Individuals or entities may make fair use of copyrighted ISGS material, such as reproducing a single figure or table, or using a brief text quotation, without obtaining formal permission, but in all cases the Illinois State Geological Survey must be credited as the source of the material. To reproduce ISGS information beyond the fair use standard, permission must be obtained from the ISGS Information Office, 615 East Peabody Drive, Champaign, Illinois 61820, 217-333-4747, isgs@isgs.illinois.edu. License fees and a license agreement may be required, depending on the proposed usage.
+
+    Any use of these data is governed by University and campus policies, in particular, but not limited to, the Policy on Appropriate Use of Computers and Network Systems at the University of Illinois at Urbana-Champaign, the ISGS Terms of Use document available at the ISGS Web site, and the University of Illinois Web Privacy Notice.  Links to these are provided in the Cross References section.
+
+    Map information is to be used at a scientifically and cartographically appropriate scale, that is, at a scale no greater than indicated on the map or as described in the documentation of the map or map data.  Map information is not appropriate for, and is not to be used as, a geodetic, legal, or engineering base. Map information has no legal basis in the definition of boundaries or property lines and is not intended as a substitute for surveyed locations such as can be determined by a registered Public Land Surveyor.
+
+    The data do not replace the need for detailed site-specific studies.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Instructions: Please refer to the Distribution Information section.
+  Native_Data_Set_Environment: ArcSDE 9.1 on Oracle 10g
+  Cross_Reference:
+    Citation_Information:
+      Originator: US Census
+      Publication_Date: 2000
+      Title: US Census Metadata
+      Geospatial_Data_Presentation_Form: document
+      Other_Citation_Details: Refer to this online metadata for more information on the source data.
+      Online_Linkage: http://www.census.gov/geo/www/cob/index.html
+  Cross_Reference:
+    Citation_Information:
+      Title: ISGS Terms of Use
+      Online_Linkage: http://www.isgs.illinois.edu
+  Cross_Reference:
+    Citation_Information:
+      Title: University of Illinois Web Privacy Notice
+      Online_Linkage: http://www.vpaa.uillinois.edu/policies/web_privacy.cfm
+  Cross_Reference:
+    Citation_Information:
+      Title: University Copyright Policy (stated in the General Rules Concerning University Organization and Procedure, Article III, Section 4)
+      Online_Linkage: http://www.uillinois.edu/trustees/rules.cfm#sec34
+  Cross_Reference:
+    Citation_Information:
+      Title: Policy on Appropriate Use of Computers and Network Systems at the University of Illinois at Urbana-Champaign
+      Online_Linkage: http://www.fs.uiuc.edu/cam/CAM/viii/viii-1.1.html
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: No report.  Refer to the source information.
+  Logical_Consistency_Report: No report.  Refer to the source information.
+  Completeness_Report: No report.  Refer to the source information.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Boundaries are generalized from TIGER line data.  Suggested scale is 1:500,000.  Refer to the source information.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Department of Commerce, Bureau of the Census.
+          Publication_Date: 2000
+          Title: Census 2000: Incorporated Places/Census Designated Places Boundary File
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+            Series_Name: US Census Cartographic Boundary Files
+            Issue_Identification: pl17_d00_e00.zip
+          Publication_Information:
+            Publisher: US Census
+          Online_Linkage: http://www.census.gov/geo/www/cob/bdy_files.html
+      Source_Scale_Denominator: 5000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: date of census
+      Source_Citation_Abbreviation: none
+      Source_Contribution: Municipal boundaries, FIPS place code, name, and type
+    Process_Step:
+      Process_Description:
+        The data were downloaded in coverage format.  Coverage was converted to a shapefile using ArcMap 9.1.  Empty polygon feature class was created in SDE using field names as defined in GISDB.IL_ADMIN_Municipality_1990_Py.  Data were loaded into the SDE feature class from the shapefile using the Load dialog of ArcCatalog 9.1.  The attribute fields were mapped from shapefile to SDE feature class as follows:
+
+        PLACEPF to FIPS_PLACE
+        NAME to NAME
+        LSAD_TRANS to TYPE
+
+        Other attributes in the source were not included in the SDE feature class.
+      Process_Date: 20060425
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 2730
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000001
+      Longitude_Resolution: 0.000001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: GISDB.IL_ADMIN_Municipality_2000_Py
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: FIPS_PLACE
+    Attribute:
+      Attribute_Label: NAME
+    Attribute:
+      Attribute_Label: TYPE
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: SHAPE.AREA
+    Attribute:
+      Attribute_Label: SHAPE.LEN
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Attribute items are in typical ArcSDE feature class format.  Those items requiring additional explanation are:
+
+      FIPS_PLACE
+      FIPS code for each census designated place or incorporated  area. A CDP comprises densely settled concentrations of population that are identifiable by name, but not be legally incorporated. 
+
+      NAME
+      Name of the municipality
+
+      TYPE
+      roughly based on population differences
+      <null> - not an incorporated area (internal islands)
+      city - city
+      town - town
+      village - village
+      CDP - Census Designated Place
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Information Office, Illinois State Geological Survey (ISGS), a division of the Institute of Natural Resource Sustainability (INRS) of the University of Illinois
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 615 East Peabody Drive
+        City: Champaign
+        State_or_Province: Illinois
+        Postal_Code: 61820
+        Country: USA
+      Contact_Voice_Telephone: 217-333-4747
+      Contact_TDD/TTY_Telephone: 217-785-0211
+      Contact_Electronic_Mail_Address: isgs@isgs.illinois.edu
+      Hours_of_Service: 8:00 a.m. - 4:30 p.m., Monday-Friday, U.S. Central Time
+  Distribution_Liability:
+    Refer to the Legal Notices of Terms and Conditions of the University of Illinois Web Privacy Policy (there is a link in the Cross References section) for policy statements regarding the following:
+
+    Disclaimer of Liability
+    Disclaimer of Warranties and Accuracy of Data
+    Disclaimer of Endorsement
+    Disclaimer for External Links
+    Disclaimer of Duty to Continue Provision of Data
+    Security
+    Choice of Law
+
+    By obtaining these data you agree to the provisions of the University of Illinois Web Privacy Policy, regardless of the manner in which the information was obtained.
+  Technical_Prerequisites: The data are intended for use with GIS software. The ISGS uses ESRI ArcGIS software, however,  ESRI formats can be imported into many different GIS software packages. It is expected that customers who obtain these data have the technical expertise to use GIS software. The ISGS does not provide software support of any kind.
+Metadata_Reference_Information:
+  Metadata_Date: 20090224
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+      Contact_Instructions: Please refer to the Distribution Information section.
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: The access constraints as stated for the data apply also to the metadata.  Refer to the Access Constraints section of the Identification Information section.
+  Metadata_Use_Constraints: The use constraints as stated for the data apply also to the metadata.  Refer to the Use Constraints section of the Identification Information section.
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
