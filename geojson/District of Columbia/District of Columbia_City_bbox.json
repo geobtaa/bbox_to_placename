@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-76.91, 39.0], [-76.91, 38.79], [-77.12, 38.79], [-77.12, 39.0], [-76.91, 39.0]]]}, "properties": {"City": "City of Washington", "State": "District of Columbia"}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-76.9091, 38.996], [-76.9091, 38.7916], [-77.1198, 38.7916], [-77.1198, 38.996], [-76.9091, 38.996]]]}, "properties": {"City": "Washington", "State": "District of Columbia"}}]}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Condominium Points</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>SEMCOG maintains three separate data layers that represent information on built structures in Southeast Michigan: building footprints, building points, and condominium points. The Building Footprints were the first dataset collected. These were originally developed by using heads-up digitizing to trace the outlines of buildings in 2010 aerial photography. This process was repeated later using 2015 and 2019 imagery. Due to differences in spatial accuracy between the 2010 and later imagery sources, footprint polygons delineated using 2010 aerial photography may appear slightly shifted compared with imagery that is more recent. This dataset is current as of April 2019, and contains only three attributes: the unique building identifier, median height and the source of the footprint polygon. The Building Points dataset is a point layer representing a single point, at the center of the structure, for each building in Southeast Michigan as of April 2020. For buildings with an associated footprint polygon, the building point represents the centroid of the polygon. For newer structures, a point is placed at the approximate center of the structure as shown in recent imagery, as no footprint polygon yet exists. Since it is the building points that represent our most current universe of buildings in the region, this is the dataset on which we store the associated attributes of a building, mainly location and physical characteristics obtained from local assessing data and other sources. The Condominium Points dataset is also a point layer, with each point representing an attached condominium unit located within a building. Unlike site condominiums, attached condominiums are by definition only a portion of a single building, but as each unit can be individually owned they need to be tracked independently. To ensure an accurate match between condominium points and the building in which they are located, the condominium points are placed on the building centroid, and do not represent the actual physical location of the unit.Building AttributesAs stated above, SEMCOG maintains building attributes on the building points data layer. The condominium points and building footprints data layers have only a small subset of these attributes. Table B.1 list the current attributes of the buildings dataset:Table B.1Buildings Dataset AttributesFIELDTYPEDESCRIPTIONBUILDING_IDLong IntegerUnique identification number assigned to each building.PARCEL_IDLong IntegerIdentification number of the parcel on which the building is located.BUILD_TYPEIntegerBuilding type. Please see page three for a detailed description of the types.CITY_IDIntegerIdentification number of the municipality, or for Detroit, master plan neighborhood, in which the building is located.APNVarchar(24)Tax assessing parcel number of the parcel on which the building is located.RES_SQFT 3Long IntegerSquare footage devoted to residential use. NONRES_SQFT 3Long IntegerSquare footage devoted to nonresidential activity.YEAR_BUILTIntegerYear structure was built. A value of 0 indicates the year built is unknown.DEMOLISHEDDateDate structure was demolished. Buildings existing in 2010 but since demolished are maintained in the master file.HOUSING_UNITSIntegerNumber of residential housing units in the building.STORIESFloat(5.2)Number of stories. For single-family residential this number is expressed in quarter fractions from 1 to 3 stories: 1.00, 1.25, 1.50, etc.LOADD1Long IntegerStreet number, or lowest number for an address range.HIADD1Long IntegerHighest street number for an address range. A value of 0 indicates a single address for the building.STREET1Varchar(32)Street name on which the building is located.LOADD2Long IntegerStreet number, or lowest number for an address range, of second street address.HIADD2Long IntegerHighest street number for an address range, of second street address. A value of 0 indicates a single second address for the building.STREET2Varchar(32)Street name on which the building is located, of second street address.ZIPCODEVarchar(5)USPS postal code for the building address.AKAVarchar(40)Alternate name or business name of the structure, if known.GQCAPIntegerMaximum number of group quarters residents, if any.CONDO_ID 1Long IntegerUnique identification record assigned to each condominium record.MEDIAN_HGT 2IntegerMedian height of the building from LiDAR surveys, NULL if unknown.SOURCE 2Varchar(10)Source of footprint polygon: NEARMAP, OAKLAND, SANBORN or SEMCOG.1. Attribute only in the Condominium Points layer.		2. Attribute only in the Building Footprints layer.3. Square footage evenly divisible by 100 is an estimate, based on size and/or type of building, if the true value is unknown. Building TypesSEMCOG’s building types are based on the 2017 North American Industrial Classification System (NAICS). This system classifies establishments based on economic activity, is widely accepted by the planning community, and used by SEMCOG in developing its long-range socioeconomic forecasts. Each of the 22 nonresidential building types represent one or more entire 3-digit NAICS sector groupings, except for five special types of building that do not fit within this system. These specific types of activity (movie theaters, libraries, dormitories, funeral services, and parking garages) have land use and trip generation characteristics that are different from the other types of activity in their respective NAICS sector and are therefore classified individually. More information on NAICS, including descriptions of the economic activity sectors, can be found at the Census Bureau’s NAICS web site. There are also four residential building types, which assist us in tracking housing development over time. Residential types are based on a combination of units in structure, and ownership. Single-family homes and site condominiums typically contain only one unit, but there are traditional duplexes where one owner owns both units, that are also classified as single-family. Attached condo buildings contain two or more housing units in a single building, each of which shares one or more walls with an adjoining unit and can be independently owned. Multi-family housing or apartment buildings contain three or more units, all of which are owned by a single entity and intended as rental units. Figure B.1Distribution of Buildings by Type As seen in Figure B.1, 86.9 percent of all buildings are single-family homes, and only 5.8 percent of buildings are of any nonresidential building type.Mobile homes are a special building type, as we do not receive information on changes to mobile homes in a manufactured housing park through the building permits pipeline. We instead maintain a separate layer of points representing individual mobile homes in parks, updated periodically using imagery to denote if a trailer is still present at each point. Pseudo footprints for these points are generated via code and added to the buildings manually.There are structures that SEMCOG does not classify as buildings. To be considered a building, a structure must contain either a housing unit or a minimum of 250 square feet of nonresidential workspace. Therefore, garages, boathouses, and other accessory structures are not classified as buildings. A description of SEMCOG building types, including the relevant NAICS codes for the type, can be found in Table B.2:Table B.2Building Types by NAICS SectorBUILD TYPEDESCRIPTIONNAICS SECTORSRGB11Educational611190-232-25513Religious and Civic8130-132-16814Governmental921-9280-76-11521Retail Building441-454, 811-812255-190-19023Office Building511-551, 561255-0-031Manufacturing311-339194-158-21532Wholesale Trade423-425170-102-20533Warehouse and Storage493112-68-13741Transportation and Utility221, 481-488, 562204-204-20442Delivery Services491-492156-156-15651Health and Social Services621, 624214-157-18852Hospital622245-122-18253Residential Care Facility623137-68-10161Leisure Activity711-713137-205-10263Hotel and Motel721209-255-11565Eating and Drinking72285-255-071Agricultural111-213255-255-081Single-Family HousingResidential255-211-12782Attached Condo BuildingResidential230-152-083Multi-Family ApartmentResidential137-112-6884Mobile HomeResidential137-68-6891Movie Theater51213168-0-092Library519120-197-25593Dormitory Quarters7213192-137-6894Funeral Services81220255-127-12795Parking Garage8129378-78-78The RGB color values match SEMCOG’s typical map symbology for building types.Relationship between Buildings LayersCounty land parcel layers are used to assign the unique APN (Assessor Parcel Number), as well as parcel identifier, to each structure located on a parcel by means of spatial intersection between the parcels and buildings layers. However, there are counties which do not represent parcel splits in their parcel layer when large vacant parcels are developed into single-family subdivisions. In these cases, the polygon geometry of the original parent parcel is cloned once for each new child parcel. A geospatial intersection of buildings to parcels in this situation would lead to each building in the subdivision being assigned to whichever parcel polygon happened to be sitting on top of the stack of cloned parcels. In these cases we use other sources, such as building permits and developer site plans, to identify the APN of each new building, and then assign the parcel identifier by finding the land parcel with that APN. Figure B.2Primary Key Relationship of Buildings LayersLand ParcelsBuilding FootprintsBuilding PointsCondominium Pointsparcel_id (unique) -----&amp;gt;parcel_id ---------------&amp;gt;parcel_id ---------------&amp;gt;parcel_idbuilding_id (unique) ---&amp;gt;building_id (unique) ---&amp;gt;building_idAPN (unique) ----------&amp;gt;APN --------------------&amp;gt;APN --------------------&amp;gt;APN (unique)condo_id (unique)The APN and parcel identifier are passed to each building on a parcel, with each building assigned a unique building identifier. Since building points are the centroid of building footprints, they share the same building identifier as they reference the same structure. Condominium records are assigned a unique condo identifier, and also the building identifier of the structure they are located within. By this process, each layer has a unique identifier, and can be related to the larger parent geography as needed.Last Update: 01/05/2021</abstract>
+            <purpose>SEMCOG's condo points data layer was developed as input data to our long range development forecast, specifically to identify the number of condo units in a...</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-84.077538</westbc>
+                <eastbc>-82.417396</eastbc>
+                <northbc>43.132846</northbc>
+                <southbc>41.718083</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Condominiums</themekey>
+                <themekey>Building Footprints</themekey>
+                <themekey>Buildings</themekey>
+                <themekey>Condos</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>By using this data, you agree to the SEMCOG Copyright License Agreement. The full text can be read here: https://maps-semcog.opendata.arcgis.com/pages/copyright-license-agreement</useconst>
+        <datacred>Southeast Michigan Council of Governments (SEMCOG)</datacred>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>148494</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>condos_2020</enttypl>
+                <enttypd>Southeast Michigan Council of Governments (SEMCOG)</enttypd>
+                <enttypds>Southeast Michigan Council of Governments (SEMCOG)</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>building_id</attrlabl>
+                <attrdef>Numeric code of the building in which the condominium record is physically located.</attrdef>
+                <attrdefs>SEMCOG</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>city_id</attrlabl>
+                <attrdef>SEMCOG code identifying the municipality, or for Detroit, master plan neighborhood, in which the condominium is located.</attrdef>
+                <attrdefs>SEMCOG, City of Detroit</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>res_sqft</attrlabl>
+                <attrdef>Square footage devoted to residential use. Default is 1900 per unit if the square footage is unknown.</attrdef>
+                <attrdefs>SEMCOG, Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>nonres_sqft</attrlabl>
+                <attrdef>Square footage devoted to nonresidential activity.</attrdef>
+                <attrdefs>SEMCOG, Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>apn</attrlabl>
+                <attrdef>Assessor parcel number of the land parcel on which the condominium is located.</attrdef>
+                <attrdefs>Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>street1</attrlabl>
+                <attrdef>Street name of the condminium record address.</attrdef>
+                <attrdefs>Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>zipcode</attrlabl>
+                <attrdef>USPS postal zip code of the building address.</attrdef>
+                <attrdefs>United State Postal Service</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>gid</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>year_built</attrlabl>
+                <attrdef>Year structure was built. A value of 0 indicates the year built is unknown.</attrdef>
+                <attrdefs>Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>parcel_id</attrlabl>
+                <attrdef>Numeric code of the generalized parcel on which the condominim is located.</attrdef>
+                <attrdefs>SEMCOG</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>loadd1</attrlabl>
+                <attrdef>Address number, or low address if an address range, of the condminium record address.</attrdef>
+                <attrdefs>Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>hiadd1</attrlabl>
+                <attrdef>The high address number of the condo record street address range. If the address is not a range but a single address then this value will be 0.</attrdef>
+                <attrdefs>Local Units of Government</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>condo_id</attrlabl>
+                <attrdef>Unique indentifier for each condominium record.</attrdef>
+                <attrdefs>SEMCOG</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>housing_units</attrlabl>
+                <attrdef>Number of residential housing units in the condominium record.</attrdef>
+                <attrdefs>SEMCOG, Local Units of Government</attrdefs>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20210104</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Southeast Michigan Councl of Governments</cntorg>
+                </cntorgp>
+                <cntpos>Point of Contact</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1001 Woodward Avenue, Suite 1400</address>
+                    <city>Detroit</city>
+                    <state>Michigan</state>
+                    <postal>48226</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>313-961-4266</cntvoice>
+                <cntfax>313-961-4869</cntfax>
+                <cntemail>infocenter@semcog.org</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
