@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-76.9091, 38.996], [-76.9091, 38.7916], [-77.1198, 38.7916], [-77.1198, 38.996], [-76.9091, 38.996]]]}, "properties": {"City": "Washington", "State": "District of Columbia"}}]}

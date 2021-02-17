@@ -1,0 +1,565 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Nicole Hayhow, GIS Map Department, Indiana Department of Transportion, Graphics Engineering
+      Publication_Date: 20010816
+      Title: INCORPORATED_AREAS_INDOT_IN: Incorporated Boundaries in Indiana (Indiana Department of Transportation, Polygon Shapefile)
+      Geospatial_Data_Presentation_Form: Vector digital data
+      Publication_Information:
+        Publication_Place: Indianapolis, Indiana
+        Publisher: Indiana Department of Transportation, Graphics Engineering
+      Other_Citation_Details:
+        This data set was provided to personnel of the Indiana Geological Survey (IGS) by Indiana
+        Department of Transportation, Graphics Engineering personnel.
+        The data set provided was in an ESRI shapefile format, and was named "CORPLINE_INDOT_2003."
+        An updated version of this data set was provided to personnel of the IGS by INDOT personnel on September 13, 2006.
+        The data set provided was in an ESRI shapefile format, and was named "GISINFO.CORPLINE.SHP."
+      Online_Linkage: http://igs.indiana.edu/arcims/statewide/download.html
+  Description:
+    Abstract:
+      INCORPORATED_AREAS_INDOT_IN is a polygon shapefile that contains incorporated area boundaries (Cities and Towns) in
+      Indiana, provided by personnel of Indiana Department of Transportation (INDOT), Graphics Engineering. The
+      data set provided by INDOT was in an ESRI shapefile format and was named "CORPLINE_INDOT_2003."
+      INCORPORATED_AREAS_INDOT_IN is attributed with incorporated names (and) area and perimeter numbers.
+      An updated version of this data set was provided to personnel of the IGS by INDOT personnel on September 13, 2006.
+      The updated data set provided was in an ESRI shapefile format, and was named "GISINFO.CORPLINE.SHP."
+
+      The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP:
+
+      "The polygon shapefile represents the incorporated area boundaries ( Cities and Towns) in the State of Indiana.
+      Approximately 568 incorporated boundaries are represented within this data set."
+
+    Purpose: This data set was developed to delineate incorporated area boundaries for all the cities and towns in State of Indiana.
+
+    Supplemental_Information:
+      The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP:
+
+      "Polygon layer representing approximately 568 incorporated boundaries are within (+) or (-) 8 to 10 meters (26ft to 32 ft) of accuracy.
+      Source Maps of Road Inventory was utilized using the "latest dated" Active Maps as a basis for changing the corporation boundaries of
+      the Cities and Towns of each of the 92 counties of the State of Indiana. Visual alignment of the corporation boundaries was applied to
+      the DOQQ's."
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20010517
+        Ending_Date: 20060501
+    Currentness_Reference: Based on metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP.
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -87.516619
+      East_Bounding_Coordinate: -84.844218
+      North_Bounding_Coordinate: 41.760618
+      South_Bounding_Coordinate: 37.958784
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Thesaurus
+      Theme_Keyword: Indiana Geological Survey
+      Theme_Keyword: IGS
+      Theme_Keyword: Indiana Department of Transportation
+      Theme_Keyword: INDOT
+      Theme_Keyword: incorporated area
+      Theme_Keyword: city
+      Theme_Keyword: town
+      Theme_Keyword: cities
+      Theme_Keyword: towns
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Bartholomew County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Crawford County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: Dekalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Floyd County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Jennings County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Martin County
+      Place_Keyword: Miami County
+      Place_Keyword: Monroe County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Orange County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Ripley County
+      Place_Keyword: Rush County
+      Place_Keyword: Scott County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    This file is available to anyone, but access may be
+    contingent on written request, specific terms
+    relevant to the agency or person making the request, and
+    (or) current freedom of information statutes in the state
+    of Indiana.
+  Use_Constraints:
+    INDIANA GEOLOGICAL SURVEY DATA DISCLAIMER
+
+    This data set is provided by Indiana University, Indiana Geological
+    Survey, and contains data believed to be accurate; however, a degree of error
+    is inherent in all data. This product is distributed "AS-IS" without
+    warranties of any kind, either expressed or implied, including but not
+    limited to warranties of suitability of a particular purpose or use. No
+    attempt has been made in either the designed format or production of these data to
+    define the limits or jurisdiction of any federal, state, or local
+    government.
+
+    These data are intended for use only at the published scale or smaller and are for
+    reference purposes only. They are not to be construed as a legal document or survey
+    instrument. A detailed on-the-ground survey and historical analysis of a single
+    site may differ from these data.
+
+    CREDIT
+
+    It is requested that the Indiana Department of Transportation, Graphics and Engineering be cited in any
+    products generated from this data.  The following source citation should be included: [INCORPORATED_AREAS_INDOT_IN:
+    Incorporated Boundaries in Indiana (Indiana Department of Transportation, Polygon Shapefile)].
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on
+    which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a
+    defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405,
+    and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS",
+    without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana
+    University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever,
+    including, but not limited to, loss of revenue or profit, lost or damaged
+    data or other commercial or economic loss. Indiana University, Indiana
+    Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed
+    the amount paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Department of Transportation, GIS Coordinator
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 100 North Senate Avenue
+        City: Indianapolis
+        State_or_Province: Indiana
+        Postal_Code: 46204
+        Country: USA
+      Contact_Voice_Telephone: 3317-234-3106
+      Contact_Facsimile_Telephone: 317-232-5169
+      Contact_Electronic_Mail_Address: jbump@indot.in.gov
+      Hours_of_Service: 0730 to 1700 Eastern Standard Time
+      Contact_Instructions: Tuesday through Friday, except holidays
+
+  Data_Set_Credit:
+    GIS Map Deaprtment, Graphics Engineering, compiled by Nicole Hayhow 8/16/01, Updates on some areas by
+    Steve Claycomp, Justin Peters 2003-2005.
+  Native_Data_Set_Environment: ESRI ArcCatalog version 8.3.0.800 shapefile format, approximately 953 Kb
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: This data set was provided by INDOT personnel and is assumed to be accurate.
+  Logical_Consistency_Report:
+    This data set was provided by INDOT personnel and is assumed to be accurate.
+
+    The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP.
+
+    "Corporation Boundaries visually aligned to DOQQ with an accuracy of + or- 8 to 10 meters."
+  Completeness_Report:
+    This data set was provided by INDOT personnel and is assumed to be complete.
+
+    The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP.
+
+    "Approximately 568 incorporated boundaries are represented within this data set."
+
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP.
+
+        "Corporation Boundaries visually aligned to DOQQ with an accuracy of + or- 8 to 10 meters."
+
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: None reported.
+
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: INDOT, Graphics and Engineering; Nicole Hayhow
+          Publication_Date: 20060913
+          Title: GISINFO.CORPLINE.SHP (Incorporated Boundaries)
+          Geospatial_Data_Presentation_Form: Vector digital data
+          Publication_Information:
+            Publication_Place: Indianapolis, Indiana
+            Publisher: INDOT, Graphics and Engineering
+          Other_Citation_Details: None.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: .ZIP file attachment to an Electronic-Mail (E-Mail)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20060501
+        Source_Currentness_Reference: Based on metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP.
+      Source_Citation_Abbreviation: GISINFO.CORPLINE.SHP
+      Source_Contribution: Incorporated areas in Indiana
+    Process_Step:
+      Process_Description:
+        IGS personnel received an ESRI shapefile named CORPLINE_INDOT_2003 from INDOT personnel in April, 2004. CORPLINE_INDOT_2003 was loaded
+        into ESRI ArcView 3.3 and the following columns were deleted from the associated attribute table: OBJECTID, CORPFIX_C_, CORPFIX_C1, SHAPE_LENG, SHAPE_AREA,
+        BEGIN_DATE, END_DATE, EDIT_BY, AND NOTES. IGS personnel then saved the edited shapefile as INCORPORATED_AREAS_INDOT_IN.
+        It should also be noted that portions of the associated metadata provided by INDOT for CORPLINE_INDOT_2003 were extracted and included
+        in this metadata file.
+      Source_Used_Citation_Abbreviation: CORPLINE_INDOT_2003.SHP
+      Process_Date: 20040525
+      Source_Produced_Citation_Abbreviation: INCORPORATED_AREAS_INDOT_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Walls
+          Contact_Position: Geographer, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-855-1346
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: awalls@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an ESRI shapefile named GISINFO.CORPLINE from INDOT personnel on September 13, 2006. GISINFO.CORPLINE was loaded
+        into ESRI ArcMap and the following columns were deleted from the associated attribute table: OBJECTID, AREA, PERIMETER, CORPFIX_C_,
+        CORPFIX_C1, SHAPE_LE, SHAPE_AR_1, BEGIN_DATE, END_DATE, EDIT_BY, INC_NUMBER, and NOTES. Two new fields titled "AREA" and "PERIMETER" were added and
+        values were calculated using ESRI ArcMap scripts. IGS personnel then saved the edited shapefile as INCORPORATED_AREAS_INDOT_IN. It should also
+        be noted that portions of the associated metadata provided by INDOT for GISINFO.CORPLINE were extracted and included in this metadata file.
+      Source_Used_Citation_Abbreviation: GISINFO.CORPLINE.SHP
+      Process_Date: 20061005
+      Source_Produced_Citation_Abbreviation: INCORPORATED_AREAS_INDOT_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+        Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+        by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+        and "Ordinate_Resolution."
+      Process_Date: 20061005
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Indiana
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 568
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: INCORPORATED_AREAS_INDOT_IN.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features
+    Attribute:
+      Attribute_Label: CORPNAME
+      Attribute_Definition: Name of incorporated area
+      Attribute_Definition_Source: INDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area
+      Attribute_Definition_Source: ESRI ArcMap
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 752.100066
+          Range_Domain_Maximum: 244467484.3
+          Attribute_Units_of_Measure: Meters squared
+          Attribute_Measurement_Resolution: 0.000001
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter
+      Attribute_Definition_Source: ESRI ArcMap
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 886.301135
+          Range_Domain_Maximum: 215881.882772
+          Attribute_Units_of_Measure: Meters
+          Attribute_Measurement_Resolution: 0.000001
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-855-7636
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: IGSInfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    CREDIT
+
+    It is requested that the Graphics and Engineering Section, Indiana Department of Transportation be cited in any products
+    generated from this data.  The following source citation should be included: [INCORPORATED_AREAS_INDOT_IN: Incorporated
+    Boundaries in Indiana (Indiana Department of Transportation, Polygon Shapefile)].
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on
+    which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a
+    defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+    and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS",
+    without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana
+    University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever,
+    including, but not limited to, loss of revenue or profit, lost or damaged
+    data or other commercial or economic loss. Indiana University, Indiana
+    Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed
+    the amount paid by you for the product.
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Department of Transportation, Graphics and Engineering
+      Contact_Position: GIS Administrator
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 100 North Senate Ave. Rm # 801-N
+        City: Indianapolis
+        State_or_Province: Indiana
+        Postal_Code: 46206-6015
+        Country: USA
+      Contact_Voice_Telephone: 3317-234-3106
+      Contact_Facsimile_Telephone: 317-232-5169
+      Contact_Electronic_Mail_Address: jbump@indot.in.gov
+      Hours_of_Service: 0730 to 1700 Eastern Standard Time
+      Contact_Instructions: Tuesday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    The following is excerpted from the metadata provided by INDOT, Graphics and Engineering for the source shapefile GISINFO.CORPLINE.SHP:
+
+    "    INDOT Disclaimer
+    AS OF 01\01\2001
+
+    The Indiana Department of Transportation (INDOT) Provides these geographic data "as is" and the user accepts the data "as is", and assumes
+    all risks associated with its use.  By acceptance of this data, the user agrees not to transmit this data or provide access to it, or any
+    part of it, to another party unless the user shall include with the data a copy of this disclaimer.  INDOT makes no guarantee or warranty
+    concerning the accuracy of information contained in the geographic data.  INDOT further makes no warranties, either expressed or implied as
+    to any other matter whatsoever, including, without limitation, the condition of any product, or its fitness for any particular purpose. The
+    burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of
+    INDOT, no warranty, expressed or implied, is made by INDOT regarding the use of these data on any other system, nor does the fact of distribution
+    constitute or imply any such warranty.
+
+    In no event shall INDOT have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of
+    any kind, including, but not limited to, any loss of profits arising out of or reliance on the geographic data or arising out of the delivery,
+    installation, operation, or support by INDOT."
+
+Metadata_Reference_Information:
+  Metadata_Date: 20061005
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Chris Dintaman
+      Contact_Position: Geologist, GIS Specialist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-856-5654
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: cdintama@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is intended to accompany the
+    data set identified and received from the IGS.  It should not to be altered
+    or summarized.  IGS does not support secondary distribution.  If this
+    data set was received from anyone besides the IGS, this metadata file and
+    the data set it describes may lack integrity.
