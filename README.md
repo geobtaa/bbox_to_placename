@@ -10,6 +10,20 @@ The scripts can also be used for querying any records formatted in GBL Metadata 
 - Code
 - Bounding Box
 
+### Environment Setup
+
+We will be using **Anaconda 3** to edit and run scripts. Information on Anaconda installation can be found [here](https://docs.anaconda.com/anaconda/install/). Please note that all scripts are running on Python 3. 
+
+Here are all dependencies needed to be installed properly: 
+
+- [geopandas](https://geopandas.org/getting_started/install.html) 
+
+- [shapely](https://pypi.org/project/Shapely/)
+
+- [requests](https://requests.readthedocs.io/en/master/user/install/#install)
+
+- [numpy](https://numpy.org/install/)
+
 ### How to Use
 
 1. Inspect the csv file with metadata to check if it includes all the columns listed below
@@ -19,7 +33,6 @@ The scripts can also be used for querying any records formatted in GBL Metadata 
       - if there exists regional data portals, you may need to run `merge_geojsons.ipynb` to merge them together
       - Note that manual changes are required for `city_boundary.ipynb` based on attributes. 
    3. run `city_bbox.ipynb` or `county_bbox.ipynb` to create bounding box GeoJSONs
-
 3. Run `sjoin.ipynb` 
 
 
