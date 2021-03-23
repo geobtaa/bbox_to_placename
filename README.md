@@ -12,17 +12,17 @@ The scripts can also be used for querying any records formatted in GBL Metadata 
 
 ### Environment Setup
 
-We will be using **Anaconda 3** to edit and run scripts. Information on Anaconda installation can be found [here](https://docs.anaconda.com/anaconda/install/). Please note that all scripts are running on Python 3. 
+We We will be using **Anaconda 3** to edit and run scripts. Information on Anaconda installation can be found [here](https://docs.anaconda.com/anaconda/install/).  All packages available for 64-bit Windows with Python 3.7 in the Anaconda can be found [here](https://docs.anaconda.com/anaconda/packages/py3.7_win-64/). Please note that all scripts are running on Python 3 (**3.7.6**).
 
 Here are all dependencies needed to be installed properly: 
 
-- [geopandas](https://geopandas.org/getting_started/install.html) 
+- [geopandas](https://geopandas.org/getting_started/install.html) [Version: 0.7.0]
 
-- [shapely](https://pypi.org/project/Shapely/)
+- [shapely](https://pypi.org/project/Shapely/) [Version: 1.7.0]
 
-- [requests](https://requests.readthedocs.io/en/master/user/install/#install)
+- [requests](https://requests.readthedocs.io/en/master/user/install/#install) [Version: 2.22.0]
 
-- [numpy](https://numpy.org/install/)
+- [numpy](https://numpy.org/install/) [Version: 1.18.1]
 
 ### How to Use
 
